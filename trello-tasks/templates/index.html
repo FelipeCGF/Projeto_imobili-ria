@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Imobiliária Garanhuns - PE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+        }
+
+        .top-bar {
+            background: #e0e0e0;
+            padding: 10px;
+            text-align: right;
+            font-size: 14px;
+        }
+
+        .top-bar a {
+            color: #003366;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .header img {
+            height: 60px;
+            margin-right: 15px;
+        }
+
+        .nav {
+            background-color: #ffffff;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        .nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .banner {
+            background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+
+        .form-container {
+            background: #e1dede;
+            padding: 30px;
+            margin: -40px auto 20px;
+            max-width: 600px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .form-container select {
+            padding: 10px;
+            font-size: 14px;
+            width: 200px;
+        }
+
+        .form-container button {
+            padding: 10px 20px;
+            font-size: 14px;
+            background: #003366;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        @media (max-width: 600px) {
+            .form-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .form-container select,
+            .form-container button {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Topo com contatos -->
+    <div class="top-bar">
+        📞 (87) 9 9999-9999 &nbsp;
+        📧 <a href="mailto:contato@imobiliariagaranhuns.com">contato@imobiliariagaranhuns.com</a>
+    </div>
+
+    <!-- Logo -->
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Logo_example.svg/1024px-Logo_example.svg.png" alt="Logo Imobiliária">
+        <h1>Imobiliária Garanhuns - PE</h1>
+    </div>
+
+    <!-- Menu -->
+    <div class="nav">
+        <a href="#">Início</a>
+        <a href="#">Venda</a>
+        <a href="#">Aluguel</a>
+        <a href="#">Contato</a>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+        Seu imóvel em Garanhuns-PE está aqui!
+    </div>
+
+    <!-- Formulário simplificado -->
+    <div class="form-container">
+        <select>
+            <option value="venda">Venda</option>
+            <option value="aluguel">Aluguel</option>
+        </select>
+        <button>🔍 Buscar</button>
+    
+    
+    </div>
+
+</body>
+</html>
